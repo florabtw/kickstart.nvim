@@ -139,6 +139,21 @@ vim.o.timeoutlen = 300
 vim.o.splitright = true
 vim.o.splitbelow = true
 
+-- Wrap at 80 characters
+vim.opt.textwidth = 80
+
+-- Tab Spacing / Wrap
+vim.opt.shiftwidth = 2
+vim.opt.smarttab = true
+vim.opt.softtabstop = 2
+vim.opt.tabstop = 2
+
+-- Keep indent from current line when starting new line
+vim.opt.autoindent = true
+
+-- Turn tabs into spaces
+vim.opt.expandtab = true
+
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
 --  and `:help 'listchars'`
